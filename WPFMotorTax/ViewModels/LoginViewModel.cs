@@ -85,8 +85,6 @@ namespace WPFMotorTax.ViewModels
         //-> Commands
         public ICommand LoginCommand { get; }
         public ICommand RecoverPasswordCommand { get; }
-        public ICommand ShowPasswordCommand { get; }
-        public ICommand RememberPasswordCommand { get; }
 
         //Constructor
         public LoginViewModel()
